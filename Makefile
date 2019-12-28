@@ -16,3 +16,6 @@ install:
 
 micropython-install: ${MPYS}
 	cp -R $(OUT)/* /usr/lib/micropython/
+
+clean:
+	rm -rf build dist python_ev3dev2.egg-info __pycache__
